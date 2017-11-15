@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Елена Ашурова"
+  },
+  "text": {
+    "more": "Сформировалось 7 основных групп.\nСамая многочисленая- отмеченная розовым цветом- друзья и знаокмые из моего родного города(Серышево). Также туда попали пользователи, отмеченные салатовым цветом. Оранжевый цвет имеют все люди, с которыми я познакомилась в ВШЭ. Черным цветом отмечены интернет-друзья, с которыми я познакомилась непосредственно в данной соц. сети. Голубым и зеленым- люди, с которыми я познакомилась в Детских Центрах( Голубым- в ВДЦ \"Океан\", зеленым- в МДЦ \"Артек\"). Интересно, что отдельной группой(персикового цвета) соединились мои двоюродные братья и сестра. ",
+    "intro": "",
+    "title": "Друзья в ВК"
+  },
+  "legend": {
+    "edgeLabel": "их дружба между собой(в ВК)",
+    "colorLabel": "",
+    "nodeLabel": "друзья в ВК"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "city"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
